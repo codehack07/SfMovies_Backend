@@ -1,0 +1,10 @@
+[2015-May-15 22:37:12 - 496058] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-15 22:37:12 - 496059] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-15 22:37:12 - 496059] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-15 22:37:12 - 496061] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-15 22:37:12 - 496061] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-15 22:37:12 - 496204] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-15 22:37:12 - 496204] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-15 22:37:12 - 496204] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-15 22:37:12 - 496209] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-15 22:37:12 - 496210] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful

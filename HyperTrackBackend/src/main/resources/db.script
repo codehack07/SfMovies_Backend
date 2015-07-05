@@ -1,0 +1,17 @@
+CREATE TABLE user_security
+(
+email_id varchar(50) NOT NULL,
+token varchar(255),
+static_salt varchar(255),
+PRIMARY KEY (email_id)
+);
+
+CREATE TABLE hkeeping_services
+(
+service_id int(11) NOT NULL,
+token varchar(255),
+static_salt varchar(255),
+PRIMARY KEY (email_id)
+);
+
+

@@ -1,0 +1,107 @@
+[2015-May-13 00:17:03 - 34105] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:17:03 - 34119] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:17:03 - 34119] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:17:09 - 40448] [ERROR] [main.java.dao.UserProfileDao] - Where is your JDBC Driver? Include in your library path!
+[2015-May-13 00:17:09 - 40448] [ERROR] [main.java.dao.UserProfileDao] - com.mysql.jdbc.Driver
+[2015-May-13 00:17:09 - 40455] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:23:15 - 23581] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:23:24 - 32355] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:23:24 - 32355] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:23:31 - 39175] [ERROR] [main.java.dao.UserProfileDao] - Where is your JDBC Driver? Include in your library path!
+[2015-May-13 00:23:31 - 39175] [ERROR] [main.java.dao.UserProfileDao] - com.mysql.jdbc.Driver
+[2015-May-13 00:23:31 - 39192] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:24:54 - 43510] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:24:54 - 43511] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:24:54 - 43511] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:24:54 - 43511] [ERROR] [main.java.dao.UserProfileDao] - Where is your JDBC Driver? Include in your library path!
+[2015-May-13 00:24:54 - 43511] [ERROR] [main.java.dao.UserProfileDao] - com.mysql.jdbc.Driver
+[2015-May-13 00:24:54 - 43516] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:38:51 - 16895] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:38:51 - 16895] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:38:51 - 16895] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:38:51 - 16896] [ERROR] [main.java.dao.UserProfileDao] - Where is your JDBC Driver? Include in your library path!
+[2015-May-13 00:38:51 - 16896] [ERROR] [main.java.dao.UserProfileDao] - com.mysql.jdbc.Driver
+[2015-May-13 00:38:51 - 16898] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:39:18 - 43686] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:39:18 - 43686] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:39:18 - 43686] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:40:17 - 10529] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:40:17 - 10529] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:40:17 - 10529] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:40:17 - 10529] [ERROR] [main.java.dao.UserProfileDao] - Where is your JDBC Driver? Include in your library path!
+[2015-May-13 00:40:17 - 10529] [ERROR] [main.java.dao.UserProfileDao] - com.mysql.jdbc.Driver
+[2015-May-13 00:40:17 - 10531] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:41:39 - 2999] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:41:39 - 2999] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:41:39 - 2999] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:41:39 - 2999] [ERROR] [main.java.dao.UserProfileDao] - Where is your JDBC Driver? Include in your library path!
+[2015-May-13 00:41:39 - 2999] [ERROR] [main.java.dao.UserProfileDao] - com.mysql.jdbc.Driver
+[2015-May-13 00:41:39 - 3001] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:43:49 - 4160] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:43:49 - 4161] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:43:49 - 4161] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:43:49 - 4162] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 00:43:49 - 4162] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 00:43:49 - 4412] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 00:43:49 - 4412] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 00:43:49 - 4412] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:43:49 - 4426] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 00:43:49 - 4428] [ERROR] [main.java.dao.UserProfileDao] - Column 'last_name' not found.
+[2015-May-13 00:45:01 - 6867] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:45:01 - 6867] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:45:01 - 6867] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:45:08 - 14174] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 00:45:08 - 14174] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 00:45:08 - 14290] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 00:45:08 - 14290] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 00:45:08 - 14290] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:46:18 - 83971] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 00:46:18 - 83974] [ERROR] [main.java.dao.UserProfileDao] - Column 'last_name' not found.
+[2015-May-13 00:47:30 - 2871] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:47:30 - 2871] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:47:30 - 2871] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:47:33 - 6590] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 00:47:33 - 6590] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 00:47:34 - 6703] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 00:47:34 - 6703] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 00:47:34 - 6703] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:47:34 - 6719] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 00:47:34 - 6722] [ERROR] [main.java.dao.UserProfileDao] - Column 'email_id' not found.
+[2015-May-13 00:49:17 - 4144] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:49:17 - 4144] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:49:17 - 4144] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:49:21 - 8650] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 00:49:21 - 8651] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 00:49:21 - 8773] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 00:49:21 - 8773] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 00:49:21 - 8773] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:53:32 - 2336] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:53:32 - 2336] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:53:32 - 2336] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:53:34 - 4873] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 00:53:34 - 4873] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 00:53:35 - 4980] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 00:53:35 - 4980] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 00:53:35 - 4980] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:53:47 - 17783] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 00:53:50 - 20111] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-13 00:58:03 - 13388] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:58:03 - 13389] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:58:03 - 13389] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:58:06 - 17038] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 00:58:06 - 17038] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 00:58:06 - 17153] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 00:58:06 - 17153] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 00:58:06 - 17153] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:58:13 - 24204] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 00:58:13 - 24205] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-13 00:59:58 - 3262] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 00:59:58 - 3262] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 00:59:58 - 3262] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 00:59:58 - 3264] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 00:59:58 - 3264] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 00:59:58 - 3352] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 00:59:58 - 3352] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 00:59:58 - 3352] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-13 00:59:58 - 3357] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 00:59:58 - 3358] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful

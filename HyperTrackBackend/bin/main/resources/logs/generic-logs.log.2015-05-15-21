@@ -1,0 +1,76 @@
+[2015-May-15 21:17:11 - 9247607] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-15 21:17:11 - 9247608] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-15 21:17:11 - 9247608] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-15 21:17:11 - 9247609] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-15 21:17:11 - 9247609] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-15 21:17:11 - 9247701] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-15 21:17:11 - 9247701] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-15 21:17:11 - 9247701] [DEBUG] [main.java.dao.UserProfileDao] - string = INSERT INTO hk_dev.user_profile VALUES (?, ?, ?, ?, ?);
+[2015-May-15 21:17:20 - 9255923] [DEBUG] [main.java.dao.UserProfileDao] - Executing following query : com.mysql.jdbc.JDBC4PreparedStatement@220d3b52: INSERT INTO hk_dev.user_profile VALUES (3434344, 'aniket.rangrej.014@gmail.com', 'ggg', 'dfdfd', 'password');
+[2015-May-15 21:17:20 - 9255968] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-15 21:17:20 - 9255968] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-15 21:32:08 - 179839] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-15 21:32:08 - 179840] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-15 21:32:08 - 179840] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-15 21:32:08 - 179842] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-15 21:32:08 - 179842] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-15 21:32:08 - 179932] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-15 21:32:08 - 179932] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-15 21:32:08 - 179932] [DEBUG] [main.java.dao.UserProfileDao] - string = INSERT INTO hk_dev.user_profile VALUES (?, ?, ?, ?, ?);
+[2015-May-15 21:32:53 - 3584] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-15 21:32:53 - 3584] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-15 21:32:53 - 3584] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-15 21:32:53 - 3586] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-15 21:32:53 - 3586] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-15 21:32:53 - 3689] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-15 21:32:53 - 3689] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-15 21:32:53 - 3690] [DEBUG] [main.java.dao.UserProfileDao] - string = INSERT INTO hk_dev.user_profile VALUES (?, ?, ?, ?, ?);
+[2015-May-15 21:33:20 - 2732] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-15 21:33:20 - 2733] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-15 21:33:20 - 2733] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-15 21:33:20 - 2734] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-15 21:33:20 - 2734] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-15 21:33:20 - 2826] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-15 21:33:20 - 2826] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-15 21:33:20 - 2826] [DEBUG] [main.java.dao.UserProfileDao] - string = INSERT INTO hk_dev.user_profile VALUES (?, ?, ?, ?, ?);
+[2015-May-15 21:35:29 - 2045] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-15 21:35:29 - 2045] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-15 21:35:29 - 2046] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-15 21:35:29 - 2047] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-15 21:35:29 - 2047] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-15 21:35:29 - 2143] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-15 21:35:29 - 2143] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-15 21:35:29 - 2143] [DEBUG] [main.java.dao.UserProfileDao] - string = INSERT INTO hk_dev.user_profile VALUES (?, ?, ?, ?, ?);
+[2015-May-15 21:35:51 - 24372] [DEBUG] [main.java.dao.UserProfileDao] - Executing following query : com.mysql.jdbc.JDBC4PreparedStatement@f2ed6ed: INSERT INTO hk_dev.user_profile VALUES (3434344, 'aniket.rangrej.014@gmail.com', 'ggg', 'dfdfd', 'password');
+[2015-May-15 21:35:51 - 24383] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-15 21:35:51 - 24386] [ERROR] [main.java.dao.UserProfileDao] - Duplicate entry 'aniket.rangrej.014@gmail.com' for key 'PRIMARY'
+[2015-May-15 21:36:04 - 37198] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-15 21:36:04 - 37200] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-15 21:36:04 - 37200] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-15 21:36:04 - 37201] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-15 21:36:04 - 37201] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-15 21:36:04 - 37209] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-15 21:36:04 - 37210] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-15 21:36:04 - 37210] [DEBUG] [main.java.dao.UserProfileDao] - string = INSERT INTO hk_dev.user_profile VALUES (?, ?, ?, ?, ?);
+[2015-May-15 21:36:15 - 48198] [DEBUG] [main.java.dao.UserProfileDao] - Executing following query : com.mysql.jdbc.JDBC4PreparedStatement@48bcc8bd: INSERT INTO hk_dev.user_profile VALUES (3434344, 'aniket.rangrej.104@gmail.com', 'ggg', 'dfdfd', 'password');
+[2015-May-15 21:36:15 - 48259] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-15 21:36:15 - 48259] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-15 21:36:37 - 70430] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-15 21:36:37 - 70431] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-15 21:36:37 - 70431] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-15 21:36:37 - 70431] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-15 21:36:37 - 70431] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-15 21:36:37 - 70436] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-15 21:36:37 - 70436] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-15 21:36:37 - 70436] [DEBUG] [main.java.dao.UserProfileDao] - string = INSERT INTO hk_dev.user_profile VALUES (?, ?, ?, ?, ?);
+[2015-May-15 21:36:48 - 80905] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-15 21:36:48 - 80905] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-15 21:36:48 - 80905] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-15 21:36:48 - 80905] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-15 21:36:48 - 80905] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-15 21:36:48 - 80915] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-15 21:36:48 - 80915] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-15 21:36:48 - 80915] [DEBUG] [main.java.dao.UserProfileDao] - string = INSERT INTO hk_dev.user_profile VALUES (?, ?, ?, ?, ?);
+[2015-May-15 21:36:54 - 87094] [DEBUG] [main.java.dao.UserProfileDao] - Executing following query : com.mysql.jdbc.JDBC4PreparedStatement@78b5f2f6: INSERT INTO hk_dev.user_profile VALUES (3434344, 'aniket.rangrej.104@gmail.com', 'ggg', 'dfdfd', 'password');
+[2015-May-15 21:36:54 - 87095] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-15 21:36:54 - 87101] [ERROR] [main.java.dao.UserProfileDao] - Duplicate entry 'aniket.rangrej.104@gmail.com' for key 'PRIMARY'

@@ -1,0 +1,5 @@
+[2015-May-14 01:59:59 - 4150] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-14 01:59:59 - 4185] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-14 01:59:59 - 4185] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-14 01:59:59 - 4187] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-14 01:59:59 - 4187] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!

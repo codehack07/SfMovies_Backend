@@ -1,0 +1,78 @@
+[2015-May-13 01:00:08 - 13320] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 01:00:08 - 13321] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 01:00:08 - 13321] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 01:00:08 - 13321] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 01:00:08 - 13321] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 01:00:08 - 13327] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 01:00:08 - 13327] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 01:00:08 - 13327] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-13 01:02:09 - 442] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 01:02:09 - 443] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 01:02:09 - 443] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 01:02:09 - 445] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 01:02:09 - 445] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 01:02:10 - 579] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 01:02:10 - 580] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 01:02:10 - 580] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-13 01:02:10 - 585] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 01:02:10 - 586] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-13 01:02:27 - 18438] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 01:02:27 - 18439] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 01:02:27 - 18439] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 01:02:27 - 18439] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 01:02:27 - 18439] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 01:02:27 - 18445] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 01:02:27 - 18445] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 01:02:27 - 18445] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-13 01:02:27 - 18445] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 01:02:27 - 18446] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-13 01:06:07 - 238086] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 01:06:07 - 238454] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 01:06:07 - 238454] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 01:06:07 - 238454] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 01:06:07 - 238454] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 01:06:08 - 239087] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 01:06:08 - 239087] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 01:06:08 - 239087] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-13 01:06:08 - 239179] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 01:06:08 - 239179] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-13 01:06:47 - 277873] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 01:06:47 - 277891] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 01:06:47 - 277891] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 01:06:47 - 277891] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 01:06:47 - 277892] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 01:06:47 - 278100] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 01:06:47 - 278100] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 01:06:47 - 278100] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-13 01:06:47 - 278114] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 01:06:47 - 278114] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-13 01:07:10 - 301344] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 01:07:10 - 301344] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 01:07:10 - 301344] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 01:07:10 - 301344] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 01:07:10 - 301344] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 01:07:10 - 301349] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 01:07:10 - 301349] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 01:07:10 - 301349] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-13 01:07:10 - 301349] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 01:07:10 - 301350] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-13 01:07:14 - 305453] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 01:07:14 - 305454] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 01:07:14 - 305454] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 01:07:14 - 305454] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 01:07:14 - 305454] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 01:07:14 - 305458] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 01:07:14 - 305458] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 01:07:14 - 305459] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-13 01:07:14 - 305459] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 01:07:14 - 305459] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-13 01:07:20 - 311290] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-13 01:07:20 - 311290] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-13 01:07:20 - 311290] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-13 01:07:20 - 311290] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-13 01:07:20 - 311290] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-13 01:07:20 - 311295] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-13 01:07:20 - 311295] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-13 01:07:20 - 311295] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-13 01:07:20 - 311295] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-13 01:07:20 - 311295] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful

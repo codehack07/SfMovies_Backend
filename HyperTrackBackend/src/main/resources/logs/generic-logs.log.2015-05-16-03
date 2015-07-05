@@ -1,0 +1,22 @@
+[2015-May-16 03:05:16 - 6620] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-16 03:05:16 - 6652] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-16 03:05:16 - 6652] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-16 03:05:16 - 6654] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-16 03:05:16 - 6654] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-16 03:05:16 - 6754] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-16 03:05:16 - 6754] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-16 03:05:16 - 6755] [DEBUG] [main.java.dao.UserProfileDao] - string = INSERT INTO hk_dev.user_profile VALUES (?, ?, ?, ?, ?);
+[2015-May-16 03:05:16 - 6759] [DEBUG] [main.java.dao.UserProfileDao] - Executing following query : com.mysql.jdbc.JDBC4PreparedStatement@5551ea37: INSERT INTO hk_dev.user_profile VALUES (12567, 'ruchz07@gmail\ncom', 'ruchika', 'jain', 'anuj');
+[2015-May-16 03:05:16 - 6811] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-16 03:05:16 - 6811] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-16 03:08:40 - 210797] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-16 03:08:40 - 210798] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-16 03:08:40 - 210798] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-16 03:08:40 - 210798] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-16 03:08:40 - 210798] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-16 03:08:40 - 210808] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-16 03:08:40 - 210808] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-16 03:08:40 - 210808] [DEBUG] [main.java.dao.UserProfileDao] - string = INSERT INTO hk_dev.user_profile VALUES (?, ?, ?, ?, ?);
+[2015-May-16 03:08:40 - 210808] [DEBUG] [main.java.dao.UserProfileDao] - Executing following query : com.mysql.jdbc.JDBC4PreparedStatement@3b767cb4: INSERT INTO hk_dev.user_profile VALUES (1526, 'dhsbsd', 'ghs', 'dgss', 'shshs');
+[2015-May-16 03:08:40 - 210855] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-16 03:08:40 - 210856] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful

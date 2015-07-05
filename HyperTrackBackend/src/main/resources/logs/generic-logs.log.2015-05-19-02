@@ -1,0 +1,927 @@
+[2015-May-19 02:38:32 - 0] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-19 02:38:32 - 0] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-19 02:38:32 - 0] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-19 02:38:32 - 2] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-19 02:38:32 - 2] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-19 02:38:32 - 122] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-19 02:38:32 - 122] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-19 02:38:32 - 122] [DEBUG] [main.java.dao.UserProfileDao] - string = INSERT INTO hk_dev.user_profile VALUES (?, ?, ?, ?, ?);
+[2015-May-19 02:38:32 - 128] [DEBUG] [main.java.dao.UserProfileDao] - Executing following query : com.mysql.jdbc.JDBC4PreparedStatement@4fd1b3bc: INSERT INTO hk_dev.user_profile VALUES (3434344, 'aniket.rangrej.023@gmail.com', 'ggg', 'dfdfd', 'password');
+[2015-May-19 02:38:32 - 160] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-19 02:38:32 - 161] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-19 02:42:13 - 221484] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-19 02:42:13 - 221485] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-19 02:42:13 - 221485] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-19 02:42:13 - 221485] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-19 02:42:13 - 221485] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-19 02:42:13 - 221491] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-19 02:42:13 - 221491] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-19 02:42:13 - 221491] [DEBUG] [main.java.dao.UserProfileDao] - string = INSERT INTO hk_dev.user_profile VALUES (?, ?, ?, ?, ?);
+[2015-May-19 02:42:13 - 221491] [DEBUG] [main.java.dao.UserProfileDao] - Executing following query : com.mysql.jdbc.JDBC4PreparedStatement@265641cd: INSERT INTO hk_dev.user_profile VALUES (3434344, 'anuj.jain@gmail.com', 'Anuj', 'Jain', 'password');
+[2015-May-19 02:42:13 - 221544] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-19 02:42:13 - 221544] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
+[2015-May-19 02:44:06 - 334837] [DEBUG] [org.jboss.logging] - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[2015-May-19 02:44:06 - 334850] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration boolean -> org.hibernate.type.BooleanType@550b9e33
+[2015-May-19 02:44:06 - 334850] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration boolean -> org.hibernate.type.BooleanType@550b9e33
+[2015-May-19 02:44:06 - 334850] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@550b9e33
+[2015-May-19 02:44:06 - 334851] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@30ac8faa
+[2015-May-19 02:44:06 - 334852] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration true_false -> org.hibernate.type.TrueFalseType@77a7a0c2
+[2015-May-19 02:44:06 - 334852] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration yes_no -> org.hibernate.type.YesNoType@5099df1a
+[2015-May-19 02:44:06 - 334853] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration byte -> org.hibernate.type.ByteType@605652f8
+[2015-May-19 02:44:06 - 334853] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration byte -> org.hibernate.type.ByteType@605652f8
+[2015-May-19 02:44:06 - 334853] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@605652f8
+[2015-May-19 02:44:06 - 334854] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration character -> org.hibernate.type.CharacterType@7f79f82d
+[2015-May-19 02:44:06 - 334854] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration char -> org.hibernate.type.CharacterType@7f79f82d
+[2015-May-19 02:44:06 - 334854] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@7f79f82d
+[2015-May-19 02:44:06 - 334854] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration short -> org.hibernate.type.ShortType@4efc074d
+[2015-May-19 02:44:06 - 334855] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration short -> org.hibernate.type.ShortType@4efc074d
+[2015-May-19 02:44:06 - 334855] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@4efc074d
+[2015-May-19 02:44:06 - 334856] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration integer -> org.hibernate.type.IntegerType@4533a99e
+[2015-May-19 02:44:06 - 334856] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration int -> org.hibernate.type.IntegerType@4533a99e
+[2015-May-19 02:44:06 - 334856] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@4533a99e
+[2015-May-19 02:44:06 - 334857] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration long -> org.hibernate.type.LongType@8f04ba5
+[2015-May-19 02:44:06 - 334857] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration long -> org.hibernate.type.LongType@8f04ba5
+[2015-May-19 02:44:06 - 334857] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.lang.Long -> org.hibernate.type.LongType@8f04ba5
+[2015-May-19 02:44:06 - 334858] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration float -> org.hibernate.type.FloatType@3d24d098
+[2015-May-19 02:44:06 - 334858] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration float -> org.hibernate.type.FloatType@3d24d098
+[2015-May-19 02:44:06 - 334858] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@3d24d098
+[2015-May-19 02:44:06 - 334859] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration double -> org.hibernate.type.DoubleType@1e1e8e35
+[2015-May-19 02:44:06 - 334860] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration double -> org.hibernate.type.DoubleType@1e1e8e35
+[2015-May-19 02:44:06 - 334860] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@1e1e8e35
+[2015-May-19 02:44:06 - 334861] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@39eaf61c
+[2015-May-19 02:44:06 - 334861] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@39eaf61c
+[2015-May-19 02:44:06 - 334862] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@13425838
+[2015-May-19 02:44:06 - 334862] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@13425838
+[2015-May-19 02:44:06 - 334863] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration string -> org.hibernate.type.StringType@74334a68
+[2015-May-19 02:44:06 - 334863] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.lang.String -> org.hibernate.type.StringType@74334a68
+[2015-May-19 02:44:06 - 334864] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@1f9ef899
+[2015-May-19 02:44:06 - 334864] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@7d4579e1
+[2015-May-19 02:44:06 - 334865] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration url -> org.hibernate.type.UrlType@70021966
+[2015-May-19 02:44:06 - 334865] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.net.URL -> org.hibernate.type.UrlType@70021966
+[2015-May-19 02:44:06 - 334866] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration date -> org.hibernate.type.DateType@fc70934
+[2015-May-19 02:44:06 - 334866] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.sql.Date -> org.hibernate.type.DateType@fc70934
+[2015-May-19 02:44:06 - 334867] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration time -> org.hibernate.type.TimeType@61a53392
+[2015-May-19 02:44:06 - 334867] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@61a53392
+[2015-May-19 02:44:06 - 334868] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration timestamp -> org.hibernate.type.TimestampType@59015807
+[2015-May-19 02:44:06 - 334869] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@59015807
+[2015-May-19 02:44:06 - 334869] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@59015807
+[2015-May-19 02:44:06 - 334870] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@2f9e5364
+[2015-May-19 02:44:06 - 334871] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration calendar -> org.hibernate.type.CalendarType@5edd3f2e
+[2015-May-19 02:44:06 - 334871] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@5edd3f2e
+[2015-May-19 02:44:06 - 334871] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@5edd3f2e
+[2015-May-19 02:44:06 - 334872] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@324af40c
+[2015-May-19 02:44:06 - 334872] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration locale -> org.hibernate.type.LocaleType@9dc12fc
+[2015-May-19 02:44:06 - 334872] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@9dc12fc
+[2015-May-19 02:44:06 - 334873] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration currency -> org.hibernate.type.CurrencyType@49fdd887
+[2015-May-19 02:44:06 - 334873] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@49fdd887
+[2015-May-19 02:44:06 - 334874] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration timezone -> org.hibernate.type.TimeZoneType@5b62cc20
+[2015-May-19 02:44:06 - 334874] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@5b62cc20
+[2015-May-19 02:44:06 - 334874] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration class -> org.hibernate.type.ClassType@1849b76b
+[2015-May-19 02:44:06 - 334874] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1849b76b
+[2015-May-19 02:44:06 - 334875] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@1594c327
+[2015-May-19 02:44:06 - 334875] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@1594c327
+[2015-May-19 02:44:06 - 334876] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@748b33f2
+[2015-May-19 02:44:06 - 334876] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@79897163
+[2015-May-19 02:44:06 - 334877] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration binary -> org.hibernate.type.BinaryType@47c87a55
+[2015-May-19 02:44:06 - 334878] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration byte[] -> org.hibernate.type.BinaryType@47c87a55
+[2015-May-19 02:44:06 - 334878] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration [B -> org.hibernate.type.BinaryType@47c87a55
+[2015-May-19 02:44:06 - 334879] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@724809ab
+[2015-May-19 02:44:06 - 334879] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@724809ab
+[2015-May-19 02:44:06 - 334879] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@724809ab
+[2015-May-19 02:44:06 - 334879] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration image -> org.hibernate.type.ImageType@192efd90
+[2015-May-19 02:44:06 - 334880] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration characters -> org.hibernate.type.CharArrayType@5e293bcb
+[2015-May-19 02:44:06 - 334880] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration char[] -> org.hibernate.type.CharArrayType@5e293bcb
+[2015-May-19 02:44:06 - 334880] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration [C -> org.hibernate.type.CharArrayType@5e293bcb
+[2015-May-19 02:44:06 - 334881] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@7e4cd909
+[2015-May-19 02:44:06 - 334881] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@7e4cd909
+[2015-May-19 02:44:06 - 334881] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@7e4cd909
+[2015-May-19 02:44:06 - 334881] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration text -> org.hibernate.type.TextType@5f52b430
+[2015-May-19 02:44:06 - 334882] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration ntext -> org.hibernate.type.NTextType@e89fb20
+[2015-May-19 02:44:06 - 334884] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration blob -> org.hibernate.type.BlobType@800e4a9
+[2015-May-19 02:44:06 - 334884] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@800e4a9
+[2015-May-19 02:44:06 - 334885] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6085821c
+[2015-May-19 02:44:06 - 334887] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration clob -> org.hibernate.type.ClobType@41f56f8
+[2015-May-19 02:44:06 - 334887] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@41f56f8
+[2015-May-19 02:44:06 - 334889] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration nclob -> org.hibernate.type.NClobType@588aa5d
+[2015-May-19 02:44:06 - 334889] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@588aa5d
+[2015-May-19 02:44:06 - 334889] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@53eebefb
+[2015-May-19 02:44:06 - 334889] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@6169aa85
+[2015-May-19 02:44:06 - 334890] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration serializable -> org.hibernate.type.SerializableType@6a7773d
+[2015-May-19 02:44:06 - 334892] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration object -> org.hibernate.type.ObjectType@5c1c1899
+[2015-May-19 02:44:06 - 334892] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@5c1c1899
+[2015-May-19 02:44:06 - 334892] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@5bf1effb
+[2015-May-19 02:44:06 - 334893] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@68c276e5
+[2015-May-19 02:44:06 - 334893] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@370bea1e
+[2015-May-19 02:44:06 - 334893] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@6f3773cd
+[2015-May-19 02:44:06 - 334893] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@2193d0c6
+[2015-May-19 02:44:06 - 334893] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@6f6f8862
+[2015-May-19 02:44:06 - 334893] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@3631316
+[2015-May-19 02:44:06 - 334893] [DEBUG] [org.hibernate.type.BasicTypeRegistry] - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@5d7a0b16
+[2015-May-19 02:44:06 - 334903] [INFO ] [org.hibernate.annotations.common.Version] - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[2015-May-19 02:44:06 - 334906] [INFO ] [org.hibernate.Version] - HHH000412: Hibernate Core {4.3.10.Final}
+[2015-May-19 02:44:06 - 334907] [INFO ] [org.hibernate.cfg.Environment] - HHH000206: hibernate.properties not found
+[2015-May-19 02:44:06 - 334908] [INFO ] [org.hibernate.cfg.Environment] - HHH000021: Bytecode provider name : javassist
+[2015-May-19 02:44:06 - 334916] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[2015-May-19 02:44:06 - 334916] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[2015-May-19 02:44:06 - 334916] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[2015-May-19 02:44:06 - 334916] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[2015-May-19 02:44:06 - 334917] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[2015-May-19 02:44:06 - 334917] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[2015-May-19 02:44:06 - 334918] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[2015-May-19 02:44:06 - 334918] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[2015-May-19 02:44:06 - 334919] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[2015-May-19 02:44:06 - 334919] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[2015-May-19 02:44:06 - 334919] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[2015-May-19 02:44:06 - 334919] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[2015-May-19 02:44:06 - 334920] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[2015-May-19 02:44:06 - 334920] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[2015-May-19 02:44:06 - 334921] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[2015-May-19 02:44:06 - 334923] [INFO ] [org.hibernate.cfg.Configuration] - HHH000043: Configuring from resource: /hibernate.cfg.xml
+[2015-May-19 02:44:06 - 334923] [INFO ] [org.hibernate.cfg.Configuration] - HHH000040: Configuration resource: /hibernate.cfg.xml
+[2015-May-19 02:44:06 - 334949] [DEBUG] [org.hibernate.internal.util.xml.DTDEntityResolver] - Trying to resolve system-id [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd]
+[2015-May-19 02:44:06 - 334949] [DEBUG] [org.hibernate.internal.util.xml.DTDEntityResolver] - Recognized hibernate namespace; attempting to resolve on classpath under org/hibernate/
+[2015-May-19 02:44:06 - 334950] [DEBUG] [org.hibernate.internal.util.xml.DTDEntityResolver] - Located [http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd] in classpath
+[2015-May-19 02:44:06 - 334959] [DEBUG] [org.hibernate.cfg.Configuration] - connection.driver_class=com.mysql.jdbc.Driver
+[2015-May-19 02:44:06 - 334959] [DEBUG] [org.hibernate.cfg.Configuration] - connection.url=jdbc:mysql://localhost:3306/hk_dev
+[2015-May-19 02:44:06 - 334959] [DEBUG] [org.hibernate.cfg.Configuration] - connection.username=root
+[2015-May-19 02:44:06 - 334959] [DEBUG] [org.hibernate.cfg.Configuration] - connection.password=root
+[2015-May-19 02:44:06 - 334959] [DEBUG] [org.hibernate.cfg.Configuration] - connection.pool_size=1
+[2015-May-19 02:44:06 - 334960] [DEBUG] [org.hibernate.cfg.Configuration] - dialect=org.hibernate.dialect.MySQLDialect
+[2015-May-19 02:44:06 - 334960] [DEBUG] [org.hibernate.cfg.Configuration] - show_sql=true
+[2015-May-19 02:44:06 - 334960] [DEBUG] [org.hibernate.cfg.Configuration] - hbm2ddl.auto=update
+[2015-May-19 02:44:06 - 334960] [DEBUG] [org.hibernate.cfg.Configuration] - Session-factory config [null] named class [main.java.model.Trial] for mapping
+[2015-May-19 02:44:06 - 334964] [DEBUG] [org.hibernate.cfg.Configuration] - Session-factory config [null] named class [main.java.model.HKeepingServices] for mapping
+[2015-May-19 02:44:06 - 334964] [DEBUG] [org.hibernate.cfg.Configuration] - Session-factory config [null] named class [main.java.model.OTPCode] for mapping
+[2015-May-19 02:44:06 - 334965] [INFO ] [org.hibernate.cfg.Configuration] - HHH000041: Configured SessionFactory: null
+[2015-May-19 02:44:06 - 334965] [DEBUG] [org.hibernate.cfg.Configuration] - Properties: {show_sql=true, java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, catalina.base=/home/anuj/.metadata/.plugins/org.eclipse.wst.server.core/tmp1, hibernate.connection.url=jdbc:mysql://localhost:3306/hk_dev, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, catalina.useNaming=true, hbm2ddl.auto=update, os.name=Linux, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes, sun.desktop=gnome, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_65-b32, user.name=anuj, shared.loader=/home/anuj/SharedLibs/backend/*.jar,/home/anuj/SharedLibs/database/*.jar,/home/anuj/SharedLibs/hibernate/*.jar,/home/anuj/SharedLibs/Jersey/api/*.jar,/home/anuj/SharedLibs/Jersey/ext/*.jar,/home/anuj/SharedLibs/Jersey/http/*.jar,/home/anuj/SharedLibs/Jersey/lib/*.jar,/home/anuj/SharedLibs/JSON/*.jar,/home/anuj/SharedLibs/Logging/*.jar,/home/anuj/SharedLibs/Spring-Core/*.jar,/home/anuj/SharedLibs/Util/*.jar, tomcat.util.buf.StringCache.byte.enabled=true, connection.driver_class=com.mysql.jdbc.Driver, user.language=en, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64, dialect=org.hibernate.dialect.MySQLDialect, java.version=1.7.0_65, user.timezone=Asia/Kolkata, sun.arch.data.model=64, java.endorsed.dirs=/home/anuj/apache-tomcat-7.0.61/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.resources.,org.apache.tomcat., file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=51.0, user.country=IN, connection.url=jdbc:mysql://localhost:3306/hk_dev, java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre, java.vm.info=mixed mode, os.version=3.13.0-24-generic, path.separator=:, connection.password=root, java.vm.version=24.65-b04, hibernate.connection.password=root, java.awt.printerjob=sun.print.PSPrinterJob, sun.io.unicode.encoding=UnicodeLittle, tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,websocket-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,taglibs-standard-spec-*.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j.jar,log4j-1*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,hamcrest*.jar,org.hamcrest*.jar,ant-launcher.jar,cobertura-*.jar,asm-*.jar,dom4j-*.jar,icu4j-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,oro-*.jar,servlet-api-*.jar,tagsoup-*.jar,xmlParserAPIs-*.jar,xom-*.jar, awt.toolkit=sun.awt.X11.XToolkit, hibernate.connection.username=root, package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat., java.naming.factory.url.pkgs=org.apache.naming, user.home=/home/anuj, org.apache.catalina.startup.ContextConfig.jarsToSkip=, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=root, org.apache.catalina.startup.TldConfig.jarsToSkip=tomcat7-websocket.jar, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQLDialect, common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar, java.runtime.name=OpenJDK Runtime Environment, sun.java.command=org.apache.catalina.startup.Bootstrap start, java.class.path=/home/anuj/apache-tomcat-7.0.61/bin/bootstrap.jar:/home/anuj/apache-tomcat-7.0.61/bin/tomcat-juli.jar:/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, catalina.home=/home/anuj/apache-tomcat-7.0.61, sun.cpu.endian=little, sun.os.patch.level=unknown, connection.pool_size=1, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, server.loader=, os.arch=amd64, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, user.dir=/home/anuj/anuj/eclipse, line.separator=
+, wtp.deploy=/home/anuj/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps, java.vm.name=OpenJDK 64-Bit Server VM, file.encoding=UTF-8, java.specification.version=1.7, hibernate.show_sql=true, hibernate.connection.pool_size=1}
+[2015-May-19 02:44:06 - 334970] [DEBUG] [org.hibernate.integrator.internal.IntegratorServiceImpl] - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[2015-May-19 02:44:06 - 334971] [DEBUG] [org.hibernate.integrator.internal.IntegratorServiceImpl] - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[2015-May-19 02:44:06 - 334972] [DEBUG] [org.hibernate.integrator.internal.IntegratorServiceImpl] - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[2015-May-19 02:44:06 - 334981] [DEBUG] [org.hibernate.boot.registry.selector.internal.StrategySelectorImpl] - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+[2015-May-19 02:44:06 - 334981] [DEBUG] [org.hibernate.boot.registry.selector.internal.StrategySelectorImpl] - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+[2015-May-19 02:44:07 - 335008] [DEBUG] [org.hibernate.service.spi.ServiceBinding] - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[2015-May-19 02:44:07 - 335008] [DEBUG] [org.hibernate.cfg.Configuration] - Preparing to build session factory with filters : {}
+[2015-May-19 02:44:07 - 335012] [WARN ] [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[2015-May-19 02:44:07 - 335012] [INFO ] [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] - HHH000401: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/hk_dev]
+[2015-May-19 02:44:07 - 335013] [INFO ] [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] - HHH000046: Connection properties: {user=root, password=root}
+[2015-May-19 02:44:07 - 335013] [INFO ] [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] - HHH000006: Autocommit mode: false
+[2015-May-19 02:44:07 - 335013] [INFO ] [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] - HHH000115: Hibernate connection pool size: 1 (min=1)
+[2015-May-19 02:44:07 - 335014] [DEBUG] [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] - Initializing Connection pool with 1 Connections
+[2015-May-19 02:44:07 - 335023] [DEBUG] [org.hibernate.engine.jdbc.internal.JdbcServicesImpl] - Database ->
+       name : MySQL
+    version : 5.5.40-0ubuntu0.14.04.1
+      major : 5
+      minor : 5
+[2015-May-19 02:44:07 - 335023] [DEBUG] [org.hibernate.engine.jdbc.internal.JdbcServicesImpl] - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.5 ( Revision: ${svn.Revision} )
+      major : 5
+      minor : 1
+[2015-May-19 02:44:07 - 335023] [DEBUG] [org.hibernate.engine.jdbc.internal.JdbcServicesImpl] - JDBC version : 3.0
+[2015-May-19 02:44:07 - 335032] [INFO ] [org.hibernate.dialect.Dialect] - HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[2015-May-19 02:44:07 - 335036] [INFO ] [org.hibernate.engine.jdbc.internal.LobCreatorBuilder] - HHH000423: Disabling contextual LOB creation as JDBC driver reported JDBC version [3] less than 4
+[2015-May-19 02:44:07 - 335054] [DEBUG] [org.hibernate.cfg.Configuration] - Processing hbm.xml files
+[2015-May-19 02:44:07 - 335054] [DEBUG] [org.hibernate.cfg.Configuration] - Process annotated classes
+[2015-May-19 02:44:07 - 335056] [DEBUG] [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: main.java.model.Trial
+[2015-May-19 02:44:07 - 335068] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2015-May-19 02:44:07 - 335068] [DEBUG] [org.hibernate.cfg.AnnotationBinder] - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+[2015-May-19 02:44:07 - 335072] [DEBUG] [org.hibernate.cfg.annotations.EntityBinder] - Import with entity name User_table
+[2015-May-19 02:44:07 - 335074] [DEBUG] [org.hibernate.cfg.annotations.EntityBinder] - Bind entity main.java.model.Trial on table User_table
+[2015-May-19 02:44:07 - 335086] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_table), mappingColumn=userId, insertable=true, updatable=true, unique=false}
+[2015-May-19 02:44:07 - 335088] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - MetadataSourceProcessor property userId with lazy=false
+[2015-May-19 02:44:07 - 335089] [DEBUG] [org.hibernate.cfg.AbstractPropertyHolder] - Attempting to locate auto-apply AttributeConverter for property [main.java.model.Trial:userId]
+[2015-May-19 02:44:07 - 335090] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - building SimpleValue for userId
+[2015-May-19 02:44:07 - 335090] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - Building property userId
+[2015-May-19 02:44:07 - 335092] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_table), mappingColumn=userMessage, insertable=true, updatable=true, unique=false}
+[2015-May-19 02:44:07 - 335092] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - MetadataSourceProcessor property userMessage with lazy=false
+[2015-May-19 02:44:07 - 335092] [DEBUG] [org.hibernate.cfg.AbstractPropertyHolder] - Attempting to locate auto-apply AttributeConverter for property [main.java.model.Trial:userMessage]
+[2015-May-19 02:44:07 - 335093] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - building SimpleValue for userMessage
+[2015-May-19 02:44:07 - 335093] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - Building property userMessage
+[2015-May-19 02:44:07 - 335093] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(User_table), mappingColumn=User_Name, insertable=true, updatable=true, unique=false}
+[2015-May-19 02:44:07 - 335093] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - MetadataSourceProcessor property userName with lazy=false
+[2015-May-19 02:44:07 - 335093] [DEBUG] [org.hibernate.cfg.AbstractPropertyHolder] - Attempting to locate auto-apply AttributeConverter for property [main.java.model.Trial:userName]
+[2015-May-19 02:44:07 - 335093] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - building SimpleValue for userName
+[2015-May-19 02:44:07 - 335093] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - Building property userName
+[2015-May-19 02:44:07 - 335094] [DEBUG] [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: main.java.model.HKeepingServices
+[2015-May-19 02:44:07 - 335094] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2015-May-19 02:44:07 - 335094] [DEBUG] [org.hibernate.cfg.AnnotationBinder] - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+[2015-May-19 02:44:07 - 335094] [DEBUG] [org.hibernate.cfg.annotations.EntityBinder] - Import with entity name hkeeping_services
+[2015-May-19 02:44:07 - 335094] [DEBUG] [org.hibernate.cfg.annotations.EntityBinder] - Bind entity main.java.model.HKeepingServices on table hkeeping_services
+[2015-May-19 02:44:07 - 335095] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hkeeping_services), mappingColumn=service_id, insertable=true, updatable=true, unique=false}
+[2015-May-19 02:44:07 - 335095] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - MetadataSourceProcessor property serviceId with lazy=false
+[2015-May-19 02:44:07 - 335095] [DEBUG] [org.hibernate.cfg.AbstractPropertyHolder] - Attempting to locate auto-apply AttributeConverter for property [main.java.model.HKeepingServices:serviceId]
+[2015-May-19 02:44:07 - 335096] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - building SimpleValue for serviceId
+[2015-May-19 02:44:07 - 335096] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - Building property serviceId
+[2015-May-19 02:44:07 - 335096] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hkeeping_services), mappingColumn=estimated_charges, insertable=true, updatable=true, unique=false}
+[2015-May-19 02:44:07 - 335096] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - MetadataSourceProcessor property estimatedCharges with lazy=false
+[2015-May-19 02:44:07 - 335096] [DEBUG] [org.hibernate.cfg.AbstractPropertyHolder] - Attempting to locate auto-apply AttributeConverter for property [main.java.model.HKeepingServices:estimatedCharges]
+[2015-May-19 02:44:07 - 335096] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - building SimpleValue for estimatedCharges
+[2015-May-19 02:44:07 - 335096] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - Building property estimatedCharges
+[2015-May-19 02:44:07 - 335096] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hkeeping_services), mappingColumn=minimum_visiting_charges, insertable=true, updatable=true, unique=false}
+[2015-May-19 02:44:07 - 335096] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - MetadataSourceProcessor property minimumServiceCharges with lazy=false
+[2015-May-19 02:44:07 - 335096] [DEBUG] [org.hibernate.cfg.AbstractPropertyHolder] - Attempting to locate auto-apply AttributeConverter for property [main.java.model.HKeepingServices:minimumServiceCharges]
+[2015-May-19 02:44:07 - 335097] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - building SimpleValue for minimumServiceCharges
+[2015-May-19 02:44:07 - 335097] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - Building property minimumServiceCharges
+[2015-May-19 02:44:07 - 335097] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hkeeping_services), mappingColumn=service_category_id, insertable=true, updatable=true, unique=false}
+[2015-May-19 02:44:07 - 335097] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - MetadataSourceProcessor property serviceCategoryId with lazy=false
+[2015-May-19 02:44:07 - 335097] [DEBUG] [org.hibernate.cfg.AbstractPropertyHolder] - Attempting to locate auto-apply AttributeConverter for property [main.java.model.HKeepingServices:serviceCategoryId]
+[2015-May-19 02:44:07 - 335097] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - building SimpleValue for serviceCategoryId
+[2015-May-19 02:44:07 - 335097] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - Building property serviceCategoryId
+[2015-May-19 02:44:07 - 335097] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hkeeping_services), mappingColumn=service_description, insertable=true, updatable=true, unique=false}
+[2015-May-19 02:44:07 - 335097] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - MetadataSourceProcessor property serviceDescription with lazy=false
+[2015-May-19 02:44:07 - 335097] [DEBUG] [org.hibernate.cfg.AbstractPropertyHolder] - Attempting to locate auto-apply AttributeConverter for property [main.java.model.HKeepingServices:serviceDescription]
+[2015-May-19 02:44:07 - 335097] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - building SimpleValue for serviceDescription
+[2015-May-19 02:44:07 - 335098] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - Building property serviceDescription
+[2015-May-19 02:44:07 - 335098] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(hkeeping_services), mappingColumn=service_name, insertable=true, updatable=true, unique=false}
+[2015-May-19 02:44:07 - 335098] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - MetadataSourceProcessor property serviceName with lazy=false
+[2015-May-19 02:44:07 - 335098] [DEBUG] [org.hibernate.cfg.AbstractPropertyHolder] - Attempting to locate auto-apply AttributeConverter for property [main.java.model.HKeepingServices:serviceName]
+[2015-May-19 02:44:07 - 335098] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - building SimpleValue for serviceName
+[2015-May-19 02:44:07 - 335098] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - Building property serviceName
+[2015-May-19 02:44:07 - 335098] [DEBUG] [org.hibernate.cfg.AnnotationBinder] - Binding entity from annotated class: main.java.model.OTPCode
+[2015-May-19 02:44:07 - 335098] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+[2015-May-19 02:44:07 - 335098] [DEBUG] [org.hibernate.cfg.AnnotationBinder] - No value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+[2015-May-19 02:44:07 - 335098] [DEBUG] [org.hibernate.cfg.annotations.EntityBinder] - Import with entity name otp_code
+[2015-May-19 02:44:07 - 335098] [DEBUG] [org.hibernate.cfg.annotations.EntityBinder] - Bind entity main.java.model.OTPCode on table otp_code
+[2015-May-19 02:44:07 - 335099] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(otp_code), mappingColumn=phone_number, insertable=true, updatable=true, unique=false}
+[2015-May-19 02:44:07 - 335099] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - MetadataSourceProcessor property phoneNumber with lazy=false
+[2015-May-19 02:44:07 - 335099] [DEBUG] [org.hibernate.cfg.AbstractPropertyHolder] - Attempting to locate auto-apply AttributeConverter for property [main.java.model.OTPCode:phoneNumber]
+[2015-May-19 02:44:07 - 335099] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - building SimpleValue for phoneNumber
+[2015-May-19 02:44:07 - 335099] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - Building property phoneNumber
+[2015-May-19 02:44:07 - 335100] [DEBUG] [org.hibernate.cfg.Ejb3Column] - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(otp_code), mappingColumn=code, insertable=true, updatable=true, unique=false}
+[2015-May-19 02:44:07 - 335100] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - MetadataSourceProcessor property code with lazy=false
+[2015-May-19 02:44:07 - 335100] [DEBUG] [org.hibernate.cfg.AbstractPropertyHolder] - Attempting to locate auto-apply AttributeConverter for property [main.java.model.OTPCode:code]
+[2015-May-19 02:44:07 - 335100] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - building SimpleValue for code
+[2015-May-19 02:44:07 - 335100] [DEBUG] [org.hibernate.cfg.annotations.PropertyBinder] - Building property code
+[2015-May-19 02:44:07 - 335100] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - Starting fillSimpleValue for userId
+[2015-May-19 02:44:07 - 335100] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - Starting fillSimpleValue for userMessage
+[2015-May-19 02:44:07 - 335100] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - Starting fillSimpleValue for userName
+[2015-May-19 02:44:07 - 335100] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - Starting fillSimpleValue for serviceId
+[2015-May-19 02:44:07 - 335100] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - Starting fillSimpleValue for estimatedCharges
+[2015-May-19 02:44:07 - 335101] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - Starting fillSimpleValue for minimumServiceCharges
+[2015-May-19 02:44:07 - 335101] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - Starting fillSimpleValue for serviceCategoryId
+[2015-May-19 02:44:07 - 335101] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - Starting fillSimpleValue for serviceDescription
+[2015-May-19 02:44:07 - 335101] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - Starting fillSimpleValue for serviceName
+[2015-May-19 02:44:07 - 335101] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - Starting fillSimpleValue for phoneNumber
+[2015-May-19 02:44:07 - 335101] [DEBUG] [org.hibernate.cfg.annotations.SimpleValueBinder] - Starting fillSimpleValue for code
+[2015-May-19 02:44:07 - 335101] [DEBUG] [org.hibernate.cfg.Configuration] - Processing fk mappings (*ToOne and JoinedSubclass)
+[2015-May-19 02:44:07 - 335102] [DEBUG] [org.hibernate.cfg.Configuration] - Processing extends queue
+[2015-May-19 02:44:07 - 335102] [DEBUG] [org.hibernate.cfg.Configuration] - Processing extends queue
+[2015-May-19 02:44:07 - 335102] [DEBUG] [org.hibernate.cfg.Configuration] - Processing collection mappings
+[2015-May-19 02:44:07 - 335102] [DEBUG] [org.hibernate.cfg.Configuration] - Processing native query and ResultSetMapping mappings
+[2015-May-19 02:44:07 - 335102] [DEBUG] [org.hibernate.cfg.Configuration] - Processing association property references
+[2015-May-19 02:44:07 - 335102] [DEBUG] [org.hibernate.cfg.Configuration] - Creating tables' unique integer identifiers
+[2015-May-19 02:44:07 - 335102] [DEBUG] [org.hibernate.cfg.Configuration] - Processing foreign key constraints
+[2015-May-19 02:44:07 - 335103] [DEBUG] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] - No JtaPlatform was specified, checking resolver
+[2015-May-19 02:44:07 - 335104] [DEBUG] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator] - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[2015-May-19 02:44:07 - 335107] [DEBUG] [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver] - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2015-May-19 02:44:07 - 335108] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Automatic flush during beforeCompletion(): disabled
+[2015-May-19 02:44:07 - 335108] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Automatic session close at end of transaction: disabled
+[2015-May-19 02:44:07 - 335108] [DEBUG] [org.hibernate.cfg.SettingsFactory] - JDBC batch size: 15
+[2015-May-19 02:44:07 - 335108] [DEBUG] [org.hibernate.cfg.SettingsFactory] - JDBC batch updates for versioned data: disabled
+[2015-May-19 02:44:07 - 335108] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Scrollable result sets: enabled
+[2015-May-19 02:44:07 - 335109] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Wrap result sets: disabled
+[2015-May-19 02:44:07 - 335109] [DEBUG] [org.hibernate.cfg.SettingsFactory] - JDBC3 getGeneratedKeys(): enabled
+[2015-May-19 02:44:07 - 335109] [DEBUG] [org.hibernate.cfg.SettingsFactory] - multi-tenancy strategy : NONE
+[2015-May-19 02:44:07 - 335109] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Connection release mode: auto
+[2015-May-19 02:44:07 - 335109] [INFO ] [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[2015-May-19 02:44:07 - 335110] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Using BatchFetchStyle : LEGACY
+[2015-May-19 02:44:07 - 335110] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Maximum outer join fetch depth: 2
+[2015-May-19 02:44:07 - 335110] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Default batch fetch size: 1
+[2015-May-19 02:44:07 - 335111] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Generate SQL with comments: disabled
+[2015-May-19 02:44:07 - 335111] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Order SQL updates by primary key: disabled
+[2015-May-19 02:44:07 - 335111] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Order SQL inserts for batching: disabled
+[2015-May-19 02:44:07 - 335111] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Default null ordering: none
+[2015-May-19 02:44:07 - 335111] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+[2015-May-19 02:44:07 - 335112] [INFO ] [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] - HHH000397: Using ASTQueryTranslatorFactory
+[2015-May-19 02:44:07 - 335112] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Query language substitutions: {}
+[2015-May-19 02:44:07 - 335112] [DEBUG] [org.hibernate.cfg.SettingsFactory] - JPA-QL strict compliance: disabled
+[2015-May-19 02:44:07 - 335112] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Second-level cache: enabled
+[2015-May-19 02:44:07 - 335112] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Query cache: disabled
+[2015-May-19 02:44:07 - 335113] [DEBUG] [org.hibernate.cache.internal.RegionFactoryInitiator] - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[2015-May-19 02:44:07 - 335114] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Optimize cache for minimal puts: disabled
+[2015-May-19 02:44:07 - 335114] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Structured second-level cache entries: disabled
+[2015-May-19 02:44:07 - 335114] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Second-level cache direct-reference entries: disabled
+[2015-May-19 02:44:07 - 335114] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Automatic eviction of collection cache: disabled
+[2015-May-19 02:44:07 - 335114] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Statistics: disabled
+[2015-May-19 02:44:07 - 335114] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Deleted entity synthetic identifier rollback: disabled
+[2015-May-19 02:44:07 - 335114] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Default entity-mode: pojo
+[2015-May-19 02:44:07 - 335115] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Named query checking : enabled
+[2015-May-19 02:44:07 - 335115] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[2015-May-19 02:44:07 - 335115] [DEBUG] [org.hibernate.cfg.SettingsFactory] - Allow initialization of lazy state outside session : : disabled
+[2015-May-19 02:44:07 - 335115] [DEBUG] [org.hibernate.cfg.SettingsFactory] - JTA Track by Thread: enabled
+[2015-May-19 02:44:07 - 335119] [DEBUG] [org.hibernate.internal.SessionFactoryImpl] - Building session factory
+[2015-May-19 02:44:07 - 335125] [DEBUG] [org.hibernate.internal.SessionFactoryImpl] - Session factory constructed with filter configurations : {}
+[2015-May-19 02:44:07 - 335125] [DEBUG] [org.hibernate.internal.SessionFactoryImpl] - Instantiating session factory with properties: {java.vendor=Oracle Corporation, show_sql=true, sun.java.launcher=SUN_STANDARD, catalina.base=/home/anuj/.metadata/.plugins/org.eclipse.wst.server.core/tmp1, hibernate.connection.url=jdbc:mysql://localhost:3306/hk_dev, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, catalina.useNaming=true, os.name=Linux, hbm2ddl.auto=update, sun.boot.class.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes, sun.desktop=gnome, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.7.0_65-b32, user.name=anuj, shared.loader=/home/anuj/SharedLibs/backend/*.jar,/home/anuj/SharedLibs/database/*.jar,/home/anuj/SharedLibs/hibernate/*.jar,/home/anuj/SharedLibs/Jersey/api/*.jar,/home/anuj/SharedLibs/Jersey/ext/*.jar,/home/anuj/SharedLibs/Jersey/http/*.jar,/home/anuj/SharedLibs/Jersey/lib/*.jar,/home/anuj/SharedLibs/JSON/*.jar,/home/anuj/SharedLibs/Logging/*.jar,/home/anuj/SharedLibs/Spring-Core/*.jar,/home/anuj/SharedLibs/Util/*.jar, tomcat.util.buf.StringCache.byte.enabled=true, connection.driver_class=com.mysql.jdbc.Driver, user.language=en, java.naming.factory.initial=org.apache.naming.java.javaURLContextFactory, sun.boot.library.path=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64, dialect=org.hibernate.dialect.MySQLDialect, java.version=1.7.0_65, user.timezone=Asia/Kolkata, sun.arch.data.model=64, java.endorsed.dirs=/home/anuj/apache-tomcat-7.0.61/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, package.access=sun.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.resources.,org.apache.tomcat., file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=51.0, user.country=IN, connection.url=jdbc:mysql://localhost:3306/hk_dev, java.home=/usr/lib/jvm/java-7-openjdk-amd64/jre, java.vm.info=mixed mode, os.version=3.13.0-24-generic, path.separator=:, connection.password=root, java.vm.version=24.65-b04, hibernate.connection.password=root, java.awt.printerjob=sun.print.PSPrinterJob, sun.io.unicode.encoding=UnicodeLittle, tomcat.util.scan.DefaultJarScanner.jarsToSkip=bootstrap.jar,commons-daemon.jar,tomcat-juli.jar,annotations-api.jar,el-api.jar,jsp-api.jar,servlet-api.jar,websocket-api.jar,catalina.jar,catalina-ant.jar,catalina-ha.jar,catalina-tribes.jar,jasper.jar,jasper-el.jar,ecj-*.jar,tomcat-api.jar,tomcat-util.jar,tomcat-coyote.jar,tomcat-dbcp.jar,tomcat-jni.jar,tomcat-spdy.jar,tomcat-i18n-en.jar,tomcat-i18n-es.jar,tomcat-i18n-fr.jar,tomcat-i18n-ja.jar,tomcat-juli-adapters.jar,catalina-jmx-remote.jar,catalina-ws.jar,tomcat-jdbc.jar,tools.jar,commons-beanutils*.jar,commons-codec*.jar,commons-collections*.jar,commons-dbcp*.jar,commons-digester*.jar,commons-fileupload*.jar,commons-httpclient*.jar,commons-io*.jar,commons-lang*.jar,commons-logging*.jar,commons-math*.jar,commons-pool*.jar,jstl.jar,taglibs-standard-spec-*.jar,geronimo-spec-jaxrpc*.jar,wsdl4j*.jar,ant.jar,ant-junit*.jar,aspectj*.jar,jmx.jar,h2*.jar,hibernate*.jar,httpclient*.jar,jmx-tools.jar,jta*.jar,log4j.jar,log4j-1*.jar,mail*.jar,slf4j*.jar,xercesImpl.jar,xmlParserAPIs.jar,xml-apis.jar,junit.jar,junit-*.jar,hamcrest*.jar,org.hamcrest*.jar,ant-launcher.jar,cobertura-*.jar,asm-*.jar,dom4j-*.jar,icu4j-*.jar,jaxen-*.jar,jdom-*.jar,jetty-*.jar,oro-*.jar,servlet-api-*.jar,tagsoup-*.jar,xmlParserAPIs-*.jar,xom-*.jar, awt.toolkit=sun.awt.X11.XToolkit, hibernate.connection.username=root, package.definition=sun.,java.,org.apache.catalina.,org.apache.coyote.,org.apache.jasper.,org.apache.naming.,org.apache.tomcat., java.naming.factory.url.pkgs=org.apache.naming, user.home=/home/anuj, org.apache.catalina.startup.ContextConfig.jarsToSkip=, java.specification.vendor=Oracle Corporation, hibernate.hbm2ddl.auto=update, java.library.path=/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib, java.vendor.url=http://java.oracle.com/, hibernate.connection.driver_class=com.mysql.jdbc.Driver, connection.username=root, org.apache.catalina.startup.TldConfig.jarsToSkip=tomcat7-websocket.jar, java.vm.vendor=Oracle Corporation, hibernate.dialect=org.hibernate.dialect.MySQLDialect, common.loader=${catalina.base}/lib,${catalina.base}/lib/*.jar,${catalina.home}/lib,${catalina.home}/lib/*.jar, java.runtime.name=OpenJDK Runtime Environment, sun.java.command=org.apache.catalina.startup.Bootstrap start, java.class.path=/home/anuj/apache-tomcat-7.0.61/bin/bootstrap.jar:/home/anuj/apache-tomcat-7.0.61/bin/tomcat-juli.jar:/usr/lib/jvm/java-7-openjdk-amd64/lib/tools.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.7, catalina.home=/home/anuj/apache-tomcat-7.0.61, sun.cpu.endian=little, sun.os.patch.level=unknown, connection.pool_size=1, java.io.tmpdir=/tmp, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, server.loader=, java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment, os.arch=amd64, java.ext.dirs=/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext, user.dir=/home/anuj/anuj/eclipse, line.separator=
+, java.vm.name=OpenJDK 64-Bit Server VM, wtp.deploy=/home/anuj/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps, file.encoding=UTF-8, java.specification.version=1.7, hibernate.connection.pool_size=1, hibernate.show_sql=true}
+[2015-May-19 02:44:07 - 335133] [DEBUG] [org.hibernate.cfg.beanvalidation.TypeSafeActivator] - Unable to acquire Bean Validation ValidatorFactory, skipping activation
+[2015-May-19 02:44:07 - 335133] [DEBUG] [org.hibernate.secure.spi.JaccIntegrator] - Skipping JACC integration as it was not enabled
+[2015-May-19 02:44:07 - 335134] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Setting dialect [org.hibernate.dialect.MySQLDialect]
+[2015-May-19 02:44:07 - 335134] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Setting dialect [org.hibernate.dialect.MySQLDialect]
+[2015-May-19 02:44:07 - 335134] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Setting dialect [org.hibernate.dialect.MySQLDialect]
+[2015-May-19 02:44:07 - 335302] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] - Static SQL for entity: main.java.model.HKeepingServices
+[2015-May-19 02:44:07 - 335302] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Version select: select service_id from hkeeping_services where service_id =?
+[2015-May-19 02:44:07 - 335303] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Snapshot select: select hkeepingse_.service_id, hkeepingse_.estimated_charges as estimate2_1_, hkeepingse_.minimum_visiting_charges as minimum_3_1_, hkeepingse_.service_category_id as service_4_1_, hkeepingse_.service_description as service_5_1_, hkeepingse_.service_name as service_6_1_ from hkeeping_services hkeepingse_ where hkeepingse_.service_id=?
+[2015-May-19 02:44:07 - 335303] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Insert 0: insert into hkeeping_services (estimated_charges, minimum_visiting_charges, service_category_id, service_description, service_name, service_id) values (?, ?, ?, ?, ?, ?)
+[2015-May-19 02:44:07 - 335303] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Update 0: update hkeeping_services set estimated_charges=?, minimum_visiting_charges=?, service_category_id=?, service_description=?, service_name=? where service_id=?
+[2015-May-19 02:44:07 - 335303] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Delete 0: delete from hkeeping_services where service_id=?
+[2015-May-19 02:44:07 - 335316] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@55300dd]
+[2015-May-19 02:44:07 - 335316] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : estimatedCharges
+[2015-May-19 02:44:07 - 335316] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : minimumServiceCharges
+[2015-May-19 02:44:07 - 335316] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceCategoryId
+[2015-May-19 02:44:07 - 335316] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceDescription
+[2015-May-19 02:44:07 - 335316] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceName
+[2015-May-19 02:44:07 - 335316] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335324] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335326] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.HKeepingServices)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.HKeepingServices, querySpaceUid=<gen:0>, path=main.java.model.HKeepingServices)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.HKeepingServices)
+          - SQL table alias mapping - hkeepingse0_
+          - alias suffix - 0_
+          - suffixed key columns - {service_1_1_0_}
+
+[2015-May-19 02:44:07 - 335327] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.HKeepingServices [NONE]: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=?
+[2015-May-19 02:44:07 - 335327] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@72a2e6bd]
+[2015-May-19 02:44:07 - 335327] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : estimatedCharges
+[2015-May-19 02:44:07 - 335327] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : minimumServiceCharges
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceCategoryId
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceDescription
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceName
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.HKeepingServices)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.HKeepingServices, querySpaceUid=<gen:0>, path=main.java.model.HKeepingServices)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.HKeepingServices)
+          - SQL table alias mapping - hkeepingse0_
+          - alias suffix - 0_
+          - suffixed key columns - {service_1_1_0_}
+
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.HKeepingServices [READ]: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=?
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@14b443e8]
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : estimatedCharges
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : minimumServiceCharges
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceCategoryId
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceDescription
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceName
+[2015-May-19 02:44:07 - 335328] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335329] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335329] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.HKeepingServices)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.HKeepingServices, querySpaceUid=<gen:0>, path=main.java.model.HKeepingServices)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.HKeepingServices)
+          - SQL table alias mapping - hkeepingse0_
+          - alias suffix - 0_
+          - suffixed key columns - {service_1_1_0_}
+
+[2015-May-19 02:44:07 - 335329] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.HKeepingServices [UPGRADE]: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=? for update
+[2015-May-19 02:44:07 - 335329] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1bbfaccf]
+[2015-May-19 02:44:07 - 335329] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : estimatedCharges
+[2015-May-19 02:44:07 - 335329] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : minimumServiceCharges
+[2015-May-19 02:44:07 - 335329] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceCategoryId
+[2015-May-19 02:44:07 - 335329] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceDescription
+[2015-May-19 02:44:07 - 335329] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceName
+[2015-May-19 02:44:07 - 335329] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335329] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335330] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.HKeepingServices)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.HKeepingServices, querySpaceUid=<gen:0>, path=main.java.model.HKeepingServices)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.HKeepingServices)
+          - SQL table alias mapping - hkeepingse0_
+          - alias suffix - 0_
+          - suffixed key columns - {service_1_1_0_}
+
+[2015-May-19 02:44:07 - 335330] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.HKeepingServices [UPGRADE_NOWAIT]: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=? for update
+[2015-May-19 02:44:07 - 335330] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7548fbb4]
+[2015-May-19 02:44:07 - 335330] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : estimatedCharges
+[2015-May-19 02:44:07 - 335330] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : minimumServiceCharges
+[2015-May-19 02:44:07 - 335330] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceCategoryId
+[2015-May-19 02:44:07 - 335330] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceDescription
+[2015-May-19 02:44:07 - 335330] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceName
+[2015-May-19 02:44:07 - 335330] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335330] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335330] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.HKeepingServices)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.HKeepingServices, querySpaceUid=<gen:0>, path=main.java.model.HKeepingServices)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.HKeepingServices)
+          - SQL table alias mapping - hkeepingse0_
+          - alias suffix - 0_
+          - suffixed key columns - {service_1_1_0_}
+
+[2015-May-19 02:44:07 - 335330] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.HKeepingServices [UPGRADE_SKIPLOCKED]: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=? for update
+[2015-May-19 02:44:07 - 335331] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2aa127f1]
+[2015-May-19 02:44:07 - 335331] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : estimatedCharges
+[2015-May-19 02:44:07 - 335331] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : minimumServiceCharges
+[2015-May-19 02:44:07 - 335331] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceCategoryId
+[2015-May-19 02:44:07 - 335331] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceDescription
+[2015-May-19 02:44:07 - 335331] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceName
+[2015-May-19 02:44:07 - 335331] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335331] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335331] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.HKeepingServices)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.HKeepingServices, querySpaceUid=<gen:0>, path=main.java.model.HKeepingServices)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.HKeepingServices)
+          - SQL table alias mapping - hkeepingse0_
+          - alias suffix - 0_
+          - suffixed key columns - {service_1_1_0_}
+
+[2015-May-19 02:44:07 - 335331] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.HKeepingServices [FORCE]: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=? for update
+[2015-May-19 02:44:07 - 335331] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1dd4b1ef]
+[2015-May-19 02:44:07 - 335331] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : estimatedCharges
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : minimumServiceCharges
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceCategoryId
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceDescription
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceName
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.HKeepingServices)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.HKeepingServices, querySpaceUid=<gen:0>, path=main.java.model.HKeepingServices)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.HKeepingServices)
+          - SQL table alias mapping - hkeepingse0_
+          - alias suffix - 0_
+          - suffixed key columns - {service_1_1_0_}
+
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.HKeepingServices [PESSIMISTIC_READ]: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=? lock in share mode
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@77422b92]
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : estimatedCharges
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : minimumServiceCharges
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceCategoryId
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceDescription
+[2015-May-19 02:44:07 - 335332] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceName
+[2015-May-19 02:44:07 - 335333] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335333] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335333] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.HKeepingServices)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.HKeepingServices, querySpaceUid=<gen:0>, path=main.java.model.HKeepingServices)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.HKeepingServices)
+          - SQL table alias mapping - hkeepingse0_
+          - alias suffix - 0_
+          - suffixed key columns - {service_1_1_0_}
+
+[2015-May-19 02:44:07 - 335333] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.HKeepingServices [PESSIMISTIC_WRITE]: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=? for update
+[2015-May-19 02:44:07 - 335333] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5ee5f76f]
+[2015-May-19 02:44:07 - 335333] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : estimatedCharges
+[2015-May-19 02:44:07 - 335333] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : minimumServiceCharges
+[2015-May-19 02:44:07 - 335333] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceCategoryId
+[2015-May-19 02:44:07 - 335333] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceDescription
+[2015-May-19 02:44:07 - 335333] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceName
+[2015-May-19 02:44:07 - 335333] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335333] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335334] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.HKeepingServices)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.HKeepingServices, querySpaceUid=<gen:0>, path=main.java.model.HKeepingServices)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.HKeepingServices)
+          - SQL table alias mapping - hkeepingse0_
+          - alias suffix - 0_
+          - suffixed key columns - {service_1_1_0_}
+
+[2015-May-19 02:44:07 - 335334] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.HKeepingServices [PESSIMISTIC_FORCE_INCREMENT]: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=? for update
+[2015-May-19 02:44:07 - 335334] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@43d2a899]
+[2015-May-19 02:44:07 - 335334] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : estimatedCharges
+[2015-May-19 02:44:07 - 335334] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : minimumServiceCharges
+[2015-May-19 02:44:07 - 335334] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceCategoryId
+[2015-May-19 02:44:07 - 335334] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceDescription
+[2015-May-19 02:44:07 - 335334] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceName
+[2015-May-19 02:44:07 - 335334] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335334] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335334] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.HKeepingServices)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.HKeepingServices, querySpaceUid=<gen:0>, path=main.java.model.HKeepingServices)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.HKeepingServices)
+          - SQL table alias mapping - hkeepingse0_
+          - alias suffix - 0_
+          - suffixed key columns - {service_1_1_0_}
+
+[2015-May-19 02:44:07 - 335334] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.HKeepingServices [OPTIMISTIC]: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=?
+[2015-May-19 02:44:07 - 335335] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1c553a89]
+[2015-May-19 02:44:07 - 335335] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : estimatedCharges
+[2015-May-19 02:44:07 - 335335] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : minimumServiceCharges
+[2015-May-19 02:44:07 - 335335] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceCategoryId
+[2015-May-19 02:44:07 - 335335] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceDescription
+[2015-May-19 02:44:07 - 335335] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : serviceName
+[2015-May-19 02:44:07 - 335335] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335335] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335335] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.HKeepingServices)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.HKeepingServices, querySpaceUid=<gen:0>, path=main.java.model.HKeepingServices)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.HKeepingServices)
+          - SQL table alias mapping - hkeepingse0_
+          - alias suffix - 0_
+          - suffixed key columns - {service_1_1_0_}
+
+[2015-May-19 02:44:07 - 335335] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.HKeepingServices [OPTIMISTIC_FORCE_INCREMENT]: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=?
+[2015-May-19 02:44:07 - 335344] [DEBUG] [org.hibernate.loader.Loader] - Static select for action ACTION_MERGE on entity main.java.model.HKeepingServices: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=?
+[2015-May-19 02:44:07 - 335344] [DEBUG] [org.hibernate.loader.Loader] - Static select for action ACTION_REFRESH on entity main.java.model.HKeepingServices: select hkeepingse0_.service_id as service_1_1_0_, hkeepingse0_.estimated_charges as estimate2_1_0_, hkeepingse0_.minimum_visiting_charges as minimum_3_1_0_, hkeepingse0_.service_category_id as service_4_1_0_, hkeepingse0_.service_description as service_5_1_0_, hkeepingse0_.service_name as service_6_1_0_ from hkeeping_services hkeepingse0_ where hkeepingse0_.service_id=?
+[2015-May-19 02:44:07 - 335344] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] - Static SQL for entity: main.java.model.Trial
+[2015-May-19 02:44:07 - 335344] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Version select: select userId from User_table where userId =?
+[2015-May-19 02:44:07 - 335344] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Snapshot select: select trial_.userId, trial_.userMessage as userMess2_0_, trial_.User_Name as User_Nam3_0_ from User_table trial_ where trial_.userId=?
+[2015-May-19 02:44:07 - 335344] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Insert 0: insert into User_table (userMessage, User_Name, userId) values (?, ?, ?)
+[2015-May-19 02:44:07 - 335344] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Update 0: update User_table set userMessage=?, User_Name=? where userId=?
+[2015-May-19 02:44:07 - 335344] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Delete 0: delete from User_table where userId=?
+[2015-May-19 02:44:07 - 335344] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5b2e31f3]
+[2015-May-19 02:44:07 - 335345] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userMessage
+[2015-May-19 02:44:07 - 335345] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userName
+[2015-May-19 02:44:07 - 335345] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335345] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335345] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.Trial)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.Trial, querySpaceUid=<gen:0>, path=main.java.model.Trial)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.Trial)
+          - SQL table alias mapping - trial0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+[2015-May-19 02:44:07 - 335345] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.Trial [NONE]: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=?
+[2015-May-19 02:44:07 - 335345] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4aee7539]
+[2015-May-19 02:44:07 - 335345] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userMessage
+[2015-May-19 02:44:07 - 335345] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userName
+[2015-May-19 02:44:07 - 335345] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335345] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.Trial)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.Trial, querySpaceUid=<gen:0>, path=main.java.model.Trial)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.Trial)
+          - SQL table alias mapping - trial0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.Trial [READ]: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=?
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@288c7c7d]
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userMessage
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userName
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.Trial)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.Trial, querySpaceUid=<gen:0>, path=main.java.model.Trial)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.Trial)
+          - SQL table alias mapping - trial0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.Trial [UPGRADE]: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=? for update
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6648f0c8]
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userMessage
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userName
+[2015-May-19 02:44:07 - 335346] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335347] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335347] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.Trial)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.Trial, querySpaceUid=<gen:0>, path=main.java.model.Trial)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.Trial)
+          - SQL table alias mapping - trial0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+[2015-May-19 02:44:07 - 335347] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.Trial [UPGRADE_NOWAIT]: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=? for update
+[2015-May-19 02:44:07 - 335347] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@25dc4b6d]
+[2015-May-19 02:44:07 - 335347] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userMessage
+[2015-May-19 02:44:07 - 335347] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userName
+[2015-May-19 02:44:07 - 335347] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335347] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335348] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.Trial)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.Trial, querySpaceUid=<gen:0>, path=main.java.model.Trial)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.Trial)
+          - SQL table alias mapping - trial0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+[2015-May-19 02:44:07 - 335348] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.Trial [UPGRADE_SKIPLOCKED]: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=? for update
+[2015-May-19 02:44:07 - 335348] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@211bdb2b]
+[2015-May-19 02:44:07 - 335348] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userMessage
+[2015-May-19 02:44:07 - 335348] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userName
+[2015-May-19 02:44:07 - 335348] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335348] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335348] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.Trial)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.Trial, querySpaceUid=<gen:0>, path=main.java.model.Trial)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.Trial)
+          - SQL table alias mapping - trial0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+[2015-May-19 02:44:07 - 335348] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.Trial [FORCE]: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=? for update
+[2015-May-19 02:44:07 - 335348] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@652df6b1]
+[2015-May-19 02:44:07 - 335348] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userMessage
+[2015-May-19 02:44:07 - 335348] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userName
+[2015-May-19 02:44:07 - 335349] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335349] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335349] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.Trial)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.Trial, querySpaceUid=<gen:0>, path=main.java.model.Trial)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.Trial)
+          - SQL table alias mapping - trial0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+[2015-May-19 02:44:07 - 335349] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.Trial [PESSIMISTIC_READ]: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=? lock in share mode
+[2015-May-19 02:44:07 - 335349] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7f6e6ce6]
+[2015-May-19 02:44:07 - 335349] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userMessage
+[2015-May-19 02:44:07 - 335349] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userName
+[2015-May-19 02:44:07 - 335349] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335349] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335349] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.Trial)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.Trial, querySpaceUid=<gen:0>, path=main.java.model.Trial)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.Trial)
+          - SQL table alias mapping - trial0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+[2015-May-19 02:44:07 - 335350] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.Trial [PESSIMISTIC_WRITE]: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=? for update
+[2015-May-19 02:44:07 - 335350] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@74a7b56e]
+[2015-May-19 02:44:07 - 335350] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userMessage
+[2015-May-19 02:44:07 - 335350] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userName
+[2015-May-19 02:44:07 - 335350] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335350] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335350] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.Trial)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.Trial, querySpaceUid=<gen:0>, path=main.java.model.Trial)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.Trial)
+          - SQL table alias mapping - trial0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+[2015-May-19 02:44:07 - 335350] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.Trial [PESSIMISTIC_FORCE_INCREMENT]: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=? for update
+[2015-May-19 02:44:07 - 335350] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6a48ed56]
+[2015-May-19 02:44:07 - 335350] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userMessage
+[2015-May-19 02:44:07 - 335350] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userName
+[2015-May-19 02:44:07 - 335350] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335351] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335351] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.Trial)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.Trial, querySpaceUid=<gen:0>, path=main.java.model.Trial)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.Trial)
+          - SQL table alias mapping - trial0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+[2015-May-19 02:44:07 - 335351] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.Trial [OPTIMISTIC]: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=?
+[2015-May-19 02:44:07 - 335351] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@684bea7e]
+[2015-May-19 02:44:07 - 335351] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userMessage
+[2015-May-19 02:44:07 - 335351] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : userName
+[2015-May-19 02:44:07 - 335351] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335351] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335351] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.Trial)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.Trial, querySpaceUid=<gen:0>, path=main.java.model.Trial)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.Trial)
+          - SQL table alias mapping - trial0_
+          - alias suffix - 0_
+          - suffixed key columns - {userId1_0_0_}
+
+[2015-May-19 02:44:07 - 335351] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.Trial [OPTIMISTIC_FORCE_INCREMENT]: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=?
+[2015-May-19 02:44:07 - 335352] [DEBUG] [org.hibernate.loader.Loader] - Static select for action ACTION_MERGE on entity main.java.model.Trial: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=?
+[2015-May-19 02:44:07 - 335352] [DEBUG] [org.hibernate.loader.Loader] - Static select for action ACTION_REFRESH on entity main.java.model.Trial: select trial0_.userId as userId1_0_0_, trial0_.userMessage as userMess2_0_0_, trial0_.User_Name as User_Nam3_0_0_ from User_table trial0_ where trial0_.userId=?
+[2015-May-19 02:44:07 - 335352] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] - Static SQL for entity: main.java.model.OTPCode
+[2015-May-19 02:44:07 - 335352] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Version select: select phone_number from otp_code where phone_number =?
+[2015-May-19 02:44:07 - 335352] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Snapshot select: select otpcode_.phone_number, otpcode_.code as code2_2_ from otp_code otpcode_ where otpcode_.phone_number=?
+[2015-May-19 02:44:07 - 335352] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Insert 0: insert into otp_code (code, phone_number) values (?, ?)
+[2015-May-19 02:44:07 - 335352] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Update 0: update otp_code set code=? where phone_number=?
+[2015-May-19 02:44:07 - 335352] [DEBUG] [org.hibernate.persister.entity.AbstractEntityPersister] -  Delete 0: delete from otp_code where phone_number=?
+[2015-May-19 02:44:07 - 335352] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@55a458e0]
+[2015-May-19 02:44:07 - 335352] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : code
+[2015-May-19 02:44:07 - 335352] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335353] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335353] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.OTPCode)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.OTPCode, querySpaceUid=<gen:0>, path=main.java.model.OTPCode)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.OTPCode)
+          - SQL table alias mapping - otpcode0_
+          - alias suffix - 0_
+          - suffixed key columns - {phone_nu1_2_0_}
+
+[2015-May-19 02:44:07 - 335353] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.OTPCode [NONE]: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=?
+[2015-May-19 02:44:07 - 335353] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@325e4c30]
+[2015-May-19 02:44:07 - 335353] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : code
+[2015-May-19 02:44:07 - 335353] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335353] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335354] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.OTPCode)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.OTPCode, querySpaceUid=<gen:0>, path=main.java.model.OTPCode)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.OTPCode)
+          - SQL table alias mapping - otpcode0_
+          - alias suffix - 0_
+          - suffixed key columns - {phone_nu1_2_0_}
+
+[2015-May-19 02:44:07 - 335354] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.OTPCode [READ]: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=?
+[2015-May-19 02:44:07 - 335354] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7ec8af8e]
+[2015-May-19 02:44:07 - 335354] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : code
+[2015-May-19 02:44:07 - 335354] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335354] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335354] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.OTPCode)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.OTPCode, querySpaceUid=<gen:0>, path=main.java.model.OTPCode)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.OTPCode)
+          - SQL table alias mapping - otpcode0_
+          - alias suffix - 0_
+          - suffixed key columns - {phone_nu1_2_0_}
+
+[2015-May-19 02:44:07 - 335355] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.OTPCode [UPGRADE]: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=? for update
+[2015-May-19 02:44:07 - 335355] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@414b887]
+[2015-May-19 02:44:07 - 335355] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : code
+[2015-May-19 02:44:07 - 335355] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335355] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335355] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.OTPCode)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.OTPCode, querySpaceUid=<gen:0>, path=main.java.model.OTPCode)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.OTPCode)
+          - SQL table alias mapping - otpcode0_
+          - alias suffix - 0_
+          - suffixed key columns - {phone_nu1_2_0_}
+
+[2015-May-19 02:44:07 - 335356] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.OTPCode [UPGRADE_NOWAIT]: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=? for update
+[2015-May-19 02:44:07 - 335356] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3ab3b8ad]
+[2015-May-19 02:44:07 - 335356] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : code
+[2015-May-19 02:44:07 - 335356] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335356] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335356] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.OTPCode)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.OTPCode, querySpaceUid=<gen:0>, path=main.java.model.OTPCode)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.OTPCode)
+          - SQL table alias mapping - otpcode0_
+          - alias suffix - 0_
+          - suffixed key columns - {phone_nu1_2_0_}
+
+[2015-May-19 02:44:07 - 335356] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.OTPCode [UPGRADE_SKIPLOCKED]: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=? for update
+[2015-May-19 02:44:07 - 335356] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@335ec373]
+[2015-May-19 02:44:07 - 335356] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : code
+[2015-May-19 02:44:07 - 335357] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335357] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335357] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.OTPCode)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.OTPCode, querySpaceUid=<gen:0>, path=main.java.model.OTPCode)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.OTPCode)
+          - SQL table alias mapping - otpcode0_
+          - alias suffix - 0_
+          - suffixed key columns - {phone_nu1_2_0_}
+
+[2015-May-19 02:44:07 - 335357] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.OTPCode [FORCE]: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=? for update
+[2015-May-19 02:44:07 - 335357] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6d61dfc7]
+[2015-May-19 02:44:07 - 335357] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : code
+[2015-May-19 02:44:07 - 335357] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335357] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335357] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.OTPCode)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.OTPCode, querySpaceUid=<gen:0>, path=main.java.model.OTPCode)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.OTPCode)
+          - SQL table alias mapping - otpcode0_
+          - alias suffix - 0_
+          - suffixed key columns - {phone_nu1_2_0_}
+
+[2015-May-19 02:44:07 - 335357] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.OTPCode [PESSIMISTIC_READ]: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=? lock in share mode
+[2015-May-19 02:44:07 - 335358] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@34940e50]
+[2015-May-19 02:44:07 - 335358] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : code
+[2015-May-19 02:44:07 - 335358] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335358] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335358] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.OTPCode)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.OTPCode, querySpaceUid=<gen:0>, path=main.java.model.OTPCode)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.OTPCode)
+          - SQL table alias mapping - otpcode0_
+          - alias suffix - 0_
+          - suffixed key columns - {phone_nu1_2_0_}
+
+[2015-May-19 02:44:07 - 335358] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.OTPCode [PESSIMISTIC_WRITE]: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=? for update
+[2015-May-19 02:44:07 - 335358] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@86a1ad8]
+[2015-May-19 02:44:07 - 335358] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : code
+[2015-May-19 02:44:07 - 335358] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335358] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335359] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.OTPCode)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.OTPCode, querySpaceUid=<gen:0>, path=main.java.model.OTPCode)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.OTPCode)
+          - SQL table alias mapping - otpcode0_
+          - alias suffix - 0_
+          - suffixed key columns - {phone_nu1_2_0_}
+
+[2015-May-19 02:44:07 - 335359] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.OTPCode [PESSIMISTIC_FORCE_INCREMENT]: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=? for update
+[2015-May-19 02:44:07 - 335359] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@67a38df7]
+[2015-May-19 02:44:07 - 335359] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : code
+[2015-May-19 02:44:07 - 335359] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335359] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335359] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.OTPCode)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.OTPCode, querySpaceUid=<gen:0>, path=main.java.model.OTPCode)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.OTPCode)
+          - SQL table alias mapping - otpcode0_
+          - alias suffix - 0_
+          - suffixed key columns - {phone_nu1_2_0_}
+
+[2015-May-19 02:44:07 - 335359] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.OTPCode [OPTIMISTIC]: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=?
+[2015-May-19 02:44:07 - 335359] [DEBUG] [org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl] - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@493e8270]
+[2015-May-19 02:44:07 - 335360] [DEBUG] [org.hibernate.persister.walking.spi.MetamodelGraphWalker] - Visiting attribute path : code
+[2015-May-19 02:44:07 - 335360] [DEBUG] [org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy] - Building LoadPlan...
+[2015-May-19 02:44:07 - 335360] [DEBUG] [org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor] - processing queryspace <gen:0>
+[2015-May-19 02:44:07 - 335360] [DEBUG] [org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter] - LoadPlan(entity=main.java.model.OTPCode)
+    - Returns
+       - EntityReturnImpl(entity=main.java.model.OTPCode, querySpaceUid=<gen:0>, path=main.java.model.OTPCode)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=main.java.model.OTPCode)
+          - SQL table alias mapping - otpcode0_
+          - alias suffix - 0_
+          - suffixed key columns - {phone_nu1_2_0_}
+
+[2015-May-19 02:44:07 - 335360] [DEBUG] [org.hibernate.loader.entity.plan.EntityLoader] - Static select for entity main.java.model.OTPCode [OPTIMISTIC_FORCE_INCREMENT]: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=?
+[2015-May-19 02:44:07 - 335360] [DEBUG] [org.hibernate.loader.Loader] - Static select for action ACTION_MERGE on entity main.java.model.OTPCode: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=?
+[2015-May-19 02:44:07 - 335360] [DEBUG] [org.hibernate.loader.Loader] - Static select for action ACTION_REFRESH on entity main.java.model.OTPCode: select otpcode0_.phone_number as phone_nu1_2_0_, otpcode0_.code as code2_2_0_ from otp_code otpcode0_ where otpcode0_.phone_number=?
+[2015-May-19 02:44:07 - 335362] [DEBUG] [org.hibernate.internal.SessionFactoryRegistry] - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@3eda6849
+[2015-May-19 02:44:07 - 335363] [DEBUG] [org.hibernate.internal.SessionFactoryRegistry] - Registering SessionFactory: 6da0318e-1304-4fde-9700-ed85ae335475 (<unnamed>)
+[2015-May-19 02:44:07 - 335363] [DEBUG] [org.hibernate.internal.SessionFactoryRegistry] - Not binding SessionFactory to JNDI, no JNDI name configured
+[2015-May-19 02:44:07 - 335363] [DEBUG] [org.hibernate.internal.SessionFactoryImpl] - Instantiated session factory
+[2015-May-19 02:44:07 - 335365] [INFO ] [org.hibernate.tool.hbm2ddl.SchemaUpdate] - HHH000228: Running hbm2ddl schema update
+[2015-May-19 02:44:07 - 335365] [INFO ] [org.hibernate.tool.hbm2ddl.SchemaUpdate] - HHH000102: Fetching database metadata
+[2015-May-19 02:44:07 - 335367] [INFO ] [org.hibernate.tool.hbm2ddl.SchemaUpdate] - HHH000396: Updating schema
+[2015-May-19 02:44:07 - 335367] [DEBUG] [org.hibernate.cfg.Configuration] - Processing hbm.xml files
+[2015-May-19 02:44:07 - 335367] [DEBUG] [org.hibernate.cfg.Configuration] - Process annotated classes
+[2015-May-19 02:44:07 - 335367] [DEBUG] [org.hibernate.cfg.Configuration] - Processing fk mappings (*ToOne and JoinedSubclass)
+[2015-May-19 02:44:07 - 335367] [DEBUG] [org.hibernate.cfg.Configuration] - Processing extends queue
+[2015-May-19 02:44:07 - 335367] [DEBUG] [org.hibernate.cfg.Configuration] - Processing extends queue
+[2015-May-19 02:44:07 - 335367] [DEBUG] [org.hibernate.cfg.Configuration] - Processing collection mappings
+[2015-May-19 02:44:07 - 335367] [DEBUG] [org.hibernate.cfg.Configuration] - Processing native query and ResultSetMapping mappings
+[2015-May-19 02:44:07 - 335367] [DEBUG] [org.hibernate.cfg.Configuration] - Processing association property references
+[2015-May-19 02:44:07 - 335367] [DEBUG] [org.hibernate.cfg.Configuration] - Creating tables' unique integer identifiers
+[2015-May-19 02:44:07 - 335367] [DEBUG] [org.hibernate.cfg.Configuration] - Processing foreign key constraints
+[2015-May-19 02:44:07 - 335368] [INFO ] [java.sql.DatabaseMetaData] - HHH000262: Table not found: User_table
+[2015-May-19 02:44:07 - 335369] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Setting dialect [org.hibernate.dialect.MySQLDialect]
+[2015-May-19 02:44:07 - 335374] [INFO ] [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000261: Table found: hk_dev.hkeeping_services
+[2015-May-19 02:44:07 - 335374] [INFO ] [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000037: Columns: [service_id, service_category_id, estimated_charges, minimum_visiting_charges, service_name, service_description]
+[2015-May-19 02:44:07 - 335374] [INFO ] [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000108: Foreign keys: []
+[2015-May-19 02:44:07 - 335375] [INFO ] [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000126: Indexes: [primary]
+[2015-May-19 02:44:07 - 335376] [INFO ] [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000261: Table found: hk_dev.otp_code
+[2015-May-19 02:44:07 - 335376] [INFO ] [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000037: Columns: [phone_number, code]
+[2015-May-19 02:44:07 - 335376] [INFO ] [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000108: Foreign keys: []
+[2015-May-19 02:44:07 - 335376] [INFO ] [org.hibernate.tool.hbm2ddl.TableMetadata] - HHH000126: Indexes: []
+[2015-May-19 02:44:07 - 335376] [INFO ] [java.sql.DatabaseMetaData] - HHH000262: Table not found: User_table
+[2015-May-19 02:44:07 - 335377] [INFO ] [java.sql.DatabaseMetaData] - HHH000262: Table not found: User_table
+[2015-May-19 02:44:07 - 335377] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Setting dialect [org.hibernate.dialect.MySQLDialect]
+[2015-May-19 02:44:07 - 335377] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Setting dialect [org.hibernate.dialect.MySQLDialect]
+[2015-May-19 02:44:07 - 335377] [DEBUG] [org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory] - Setting dialect [org.hibernate.dialect.MySQLDialect]
+[2015-May-19 02:44:07 - 335377] [DEBUG] [org.hibernate.tool.hbm2ddl.SchemaUpdate] - create table User_table (userId integer not null, userMessage varchar(255), User_Name varchar(255), primary key (userId))
+[2015-May-19 02:44:07 - 335601] [INFO ] [org.hibernate.tool.hbm2ddl.SchemaUpdate] - HHH000232: Schema update complete
+[2015-May-19 02:44:07 - 335602] [DEBUG] [org.hibernate.internal.NamedQueryRepository] - Checking 0 named HQL queries
+[2015-May-19 02:44:07 - 335602] [DEBUG] [org.hibernate.internal.NamedQueryRepository] - Checking 0 named SQL queries
+[2015-May-19 02:44:07 - 335610] [DEBUG] [org.hibernate.stat.internal.StatisticsInitiator] - Statistics initialized [enabled=false]
+[2015-May-19 02:44:07 - 335633] [DEBUG] [org.hibernate.engine.transaction.spi.AbstractTransactionImpl] - begin
+[2015-May-19 02:44:07 - 335633] [DEBUG] [org.hibernate.engine.jdbc.internal.LogicalConnectionImpl] - Obtaining JDBC connection
+[2015-May-19 02:44:07 - 335633] [DEBUG] [org.hibernate.engine.jdbc.internal.LogicalConnectionImpl] - Obtained JDBC connection
+[2015-May-19 02:44:07 - 335633] [DEBUG] [org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction] - initial autocommit status: false
+[2015-May-19 02:44:07 - 335654] [DEBUG] [org.hibernate.event.internal.AbstractSaveEventListener] - Generated identifier: 7506049749, using strategy: org.hibernate.id.Assigned
+[2015-May-19 02:44:07 - 335660] [DEBUG] [org.hibernate.engine.transaction.spi.AbstractTransactionImpl] - committing
+[2015-May-19 02:44:07 - 335660] [DEBUG] [org.hibernate.event.internal.AbstractFlushingEventListener] - Processing flush-time cascades
+[2015-May-19 02:44:07 - 335661] [DEBUG] [org.hibernate.event.internal.AbstractFlushingEventListener] - Dirty checking collections
+[2015-May-19 02:44:07 - 335662] [DEBUG] [org.hibernate.event.internal.AbstractFlushingEventListener] - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+[2015-May-19 02:44:07 - 335662] [DEBUG] [org.hibernate.event.internal.AbstractFlushingEventListener] - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[2015-May-19 02:44:07 - 335662] [DEBUG] [org.hibernate.internal.util.EntityPrinter] - Listing entities:
+[2015-May-19 02:44:07 - 335662] [DEBUG] [org.hibernate.internal.util.EntityPrinter] - main.java.model.OTPCode{phoneNumber=7506049749, code=6537}
+[2015-May-19 02:44:07 - 335666] [DEBUG] [org.hibernate.SQL] - insert into otp_code (code, phone_number) values (?, ?)
+[2015-May-19 02:44:07 - 335700] [DEBUG] [org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction] - committed JDBC Connection
+[2015-May-19 02:44:07 - 335701] [DEBUG] [org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl] - HHH000420: Closing un-released batch
+[2015-May-19 02:44:07 - 335701] [DEBUG] [org.hibernate.engine.jdbc.internal.LogicalConnectionImpl] - Releasing JDBC connection
+[2015-May-19 02:44:07 - 335701] [DEBUG] [org.hibernate.engine.jdbc.internal.LogicalConnectionImpl] - Released JDBC connection
+[2015-May-19 02:44:37 - 365020] [DEBUG] [org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl] - Connection pool now considered primed; min-size will be maintained
+[2015-May-19 02:45:00 - 388419] [DEBUG] [main.java.dao.UserProfileDao] - Initializing properties for application.
+[2015-May-19 02:45:00 - 388419] [DEBUG] [main.java.dao.UserProfileDao] - Properties loaded successfully.
+[2015-May-19 02:45:00 - 388419] [DEBUG] [main.java.dao.UserProfileDao] - ------------------
+[2015-May-19 02:45:00 - 388419] [DEBUG] [main.java.dao.UserProfileDao] - initializing database connection
+[2015-May-19 02:45:00 - 388419] [DEBUG] [main.java.dao.UserProfileDao] - JDBC Driver Registered!
+[2015-May-19 02:45:00 - 388426] [DEBUG] [main.java.dao.UserProfileDao] - DB username password validated successfully
+[2015-May-19 02:45:00 - 388426] [DEBUG] [main.java.dao.UserProfileDao] - You made it, take control your database now!
+[2015-May-19 02:45:00 - 388426] [DEBUG] [main.java.dao.UserProfileDao] - string = select first_name, last_name, email_id, phone_number from hk_dev.user_profile where email_id = ?;
+[2015-May-19 02:45:00 - 388427] [DEBUG] [main.java.dao.UserProfileDao] - Closing DB connection.
+[2015-May-19 02:45:00 - 388427] [DEBUG] [main.java.dao.UserProfileDao] - DB operation successful
